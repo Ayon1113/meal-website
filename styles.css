@@ -52,12 +52,12 @@ h1{
     font-family: "Lora", serif;
 }
 
-p{
+.hero-container p{
     font-family: "Oswald, sans-serif";
     font-size: 2rem;
 }
 
-#hero-btn{
+.hero-btn{
     color: white;
     background-color: green;
     width: 10rem;
@@ -68,4 +68,80 @@ p{
     font-size: 1.5rem;
     border-radius: 20px;
 
+}
+
+.clicked{
+    background-color: rgb(12, 48, 21);
+}
+
+.features-container {
+    height: 40vh;
+    display: flex;
+    background-color: black;
+    flex-basis: 100%;
+    padding-top: 5rem;
+    color: white;
+    
+}
+
+.feature{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    border-radius: 50px;
+    
+}
+
+ul > * {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.25rem;
+}
+
+h3{
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.assortment-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+.protein{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("images/protein.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    text-align: center;
+    
+}
+
+.vegetarian{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("images/vegetarian.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    text-align: center;
+    
+
+}
+
+h2{
+    font-family: "Lora", serif;
+    font-size: 3rem;
 }
