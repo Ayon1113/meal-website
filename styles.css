@@ -77,10 +77,11 @@ h1{
 .features-container {
     height: 40vh;
     display: flex;
-    background-color: black;
+    background-color: rgb(31, 30, 30);
     flex-basis: 100%;
     padding-top: 5rem;
     color: white;
+    
     
 }
 
@@ -89,6 +90,7 @@ h1{
     height: 30vh;
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -118,6 +120,7 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
+    
 }
 
 .protein{
@@ -127,6 +130,7 @@ h3{
     background-repeat: no-repeat;
     height: 40vh;
     text-align: center;
+   
     
 }
 
@@ -143,5 +147,29 @@ h3{
 
 h2{
     font-family: "Lora", serif;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-top: 25vh;
+    
+}
+
+.footer-container{
+    height: 8vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-button{
+    width: 10rem;
+    height: 50px;
+    color: rgb(4, 61, 4);
+    background-color: white;
+    border: 2px solid rgb(4, 61, 4);
+
+}
+
+.footer-button-pressed{
+    background-color: rgb(125, 236, 125);
 }
