@@ -25,6 +25,32 @@ body{
     background-color: white;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-family: "Lora", serif;
+    height: 5vh;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px 10px;
+    height: 2vh;
+}
+
+nav ul{
+    list-style: none;
+}
+
+header img{
+    height: 2vh;
+    padding: 5px 10px;
+}
+
 .hero-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url("images/box-food.jpg"); 
@@ -95,7 +121,7 @@ h1{
 }
 
 
-img{
+.feature img{
     height: 150px;
     width: 150px;
     border: 5px solid;
@@ -128,7 +154,7 @@ h3{
     rgba(0, 0, 0, 0.5)), url("images/protein.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 50vh;
     text-align: center;
    
     
@@ -139,7 +165,7 @@ h3{
     rgba(0, 0, 0, 0.5)),url("images/vegetarian.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 50vh;
     text-align: center;
     
 
@@ -164,7 +190,6 @@ h2{
 .footer-button{
     width: 10rem;
     height: 50px;
-    color: rgb(4, 61, 4);
     background-color: white;
     border: 2px solid rgb(4, 61, 4);
 
@@ -172,4 +197,15 @@ h2{
 
 .footer-button-pressed{
     background-color: rgb(125, 236, 125);
+}
+
+#hero a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a{
+    text-decoration: none;
+    color: rgb(4, 61, 4);
+
 }
